@@ -16,6 +16,10 @@ H2O_XGB_and_Optuna.ipynb
 ```
 
 
-
+CatB_and_Custom_L_Func.ipynb
+```
+1. CatBoost 의 입력값인 cat_features 는 자동으로 데이터 칼럼에서 카테고리형 칼럼을 선택하도록 했음
+2. Custom Loss Function 예시를 넣어놨음 ( Focal Loss 에서 감명받은 부분이 반영됨.. 그런데 엄밀히 der2 ( hessian ) 값을 내가 쓴 것처럼 하면 안되긴 함. der1 의 미분 형태가 아님 )
+```
 
 
